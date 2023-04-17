@@ -1,0 +1,15 @@
+{
+  "name": "capstone_project-gamingfest_page",
+  "version": "1.0.0",
+  "description": "> 1st Capstone Project - Microverse Gaming Festival Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
