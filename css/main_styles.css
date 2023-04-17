@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+
+  :root {
+    /* COLORS */
+    --gray: #272a31;
+    --orange: #ec5242;
+    --lightgray: #d3d3d3;
   }
   
   body {
