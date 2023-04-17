@@ -15,6 +15,7 @@
   body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background-color: var(--gray);
   }
   
   .no-scroll {
