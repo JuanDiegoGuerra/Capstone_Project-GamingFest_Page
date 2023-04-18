@@ -48,16 +48,20 @@ body {
 .logo-main{
   width: 90vw;
   margin: auto;
+  text-align: center;
 }
 
 .past_events-main{
   width: 90vw;
   margin: auto;
+  text-align: center;
 }
 
 .partners-main{
   width: 90vw;
   margin: auto;
+  text-align: center;
+  color: var(--lightgray);
 }
 
 .footer-main{
@@ -145,4 +149,15 @@ body {
 .about-parragraf-2 a{
   color: var(--gray);
   font-weight: bold;
+}
+
+/* ------ LOGO SECTION ------*/
+
+/* ------ PAST EVENTS ------*/
+
+/* ------ PARTNERS ------*/
+.partners-section{
+  background-color: var(--gray);
+  padding-bottom: 2vh;
+  padding-top: 1vh;
 }
