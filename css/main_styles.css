@@ -110,11 +110,11 @@ body {
   margin-left: 3vw;
 }
 
-.event-img img{
+.event-img img {
   border-radius: 15px;
 }
 
-.event-items{
+.event-items {
   color: var(--orange);
 }
 
@@ -162,21 +162,22 @@ body {
 }
 
 /* ------ LOGO SECTION ------ */
-.logo-img img{
+.logo-img img {
   border: 1px var(--gray) solid;
   border-radius: 10px;
 }
 
 /* ------ PAST EVENTS ------ */
-.past_events-imgs{
+.past_events-imgs {
   display: flex;
   flex-direction: column;
 }
-.past_events-imgs img{
+
+.past_events-imgs img {
   border-radius: 10px;
 }
 
-.past_events-section{
+.past_events-section {
   margin-bottom: 3vh;
 }
 
@@ -185,7 +186,4 @@ body {
   background-color: var(--gray);
   padding-bottom: 2vh;
   padding-top: 1vh;
-}
-
-.footer-section{
 }
