@@ -9,6 +9,7 @@
   --gray: #272a31;
   --orange: #ec5242;
   --lightgray: #d3d3d3;
+  --white: #eaeaea;
 }
 
 body {
@@ -18,11 +19,15 @@ body {
   background-color: var(--lightgray);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .no-scroll {
   overflow: hidden;
 }
 
-/* ------------ Main Containers ------------ */
+/* ------------------ Main Containers ------------------ */
 
 .home-main {
   width: 90vw;
@@ -68,9 +73,13 @@ body {
   margin: auto;
 }
 
-/* ------------ Main Sections Divs ------------ */
+/* ------------------ Main Sections Divs ------------------ */
 
 /* ------ HOME ------ */
+.home-section {
+  padding-top: 5vh;
+}
+
 .home-parragraf {
   border: 2.5px white solid;
   border-radius: 3px;
@@ -139,12 +148,13 @@ body {
 /* ------ ABOUT / CONTACT ------ */
 .about-title {
   text-align: center;
+  color: var(--orange);
 }
 
 .about-parragraf {
   border: 1px var(--gray) solid;
   border-radius: 3px;
-  background-color: #eaeaea;
+  background-color: var(--white);
 }
 
 .about-parragraf p {
@@ -162,6 +172,12 @@ body {
 }
 
 /* ------ LOGO SECTION ------ */
+.logo-section {
+  background-color: var(--white);
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
 .logo-img img {
   border: 1px var(--gray) solid;
   border-radius: 10px;
@@ -186,4 +202,98 @@ body {
   background-color: var(--gray);
   padding-bottom: 2vh;
   padding-top: 1vh;
+}
+
+/* ------------------ ELEMENTS  ------------------ */
+.flex-nav-list {
+  display: none;
+}
+
+.flex-navbar {
+  background-color: var(--blanco);
+  color: var(--blanco);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+.display-flex-column,
+.flex-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-list {
+  list-style: none;
+  width: 100%;
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  left: 2vw;
+  top: 15px;
+}
+
+.menu-line {
+  width: 25px;
+  height: 4px;
+  background-color: var(--orange);
+  border-radius: 2px;
+  margin-bottom: 15%;
+  margin-right: 5px;
+}
+
+.primary-logo {
+  display: none;
+}
+
+/* ------------------ MEDIA QUERIES  ------------------ */
+@media screen and (max-width: 600px) {
+  .menu {
+    display: block;
+    position: fixed;
+  }
+
+  .menu.active .menu-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu.active .menu-line:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+  }
+
+  .menu.active .menu-line:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+
+  .flex-nav-list {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -150%;
+    top: -30px;
+    padding-top: 10px;
+    bottom: 30px;
+    gap: 10px;
+    background-color: #fff;
+    width: 100%;
+    font-weight: 600;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 48px 48px var(--orange);
+  }
+
+  .flex-nav-list.active {
+    left: 0;
+    padding-top: 8vh;
+  }
+
+  .flex-nav-list.active li {
+    list-style-type: none;
+  }
+
+  .flex-nav-list.active a {
+    text-decoration: none;
+  }
 }
