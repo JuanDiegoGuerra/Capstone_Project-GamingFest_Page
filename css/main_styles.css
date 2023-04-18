@@ -20,3 +20,45 @@ body {
 .no-scroll {
   overflow: hidden;
 }
+
+/* main containers */
+
+.home-main{
+  width: 90vw;
+  margin: auto;
+}
+
+.event-main{
+  width: 90vw;
+  margin: auto;
+}
+
+.games-main{
+  width: 90vw;
+  margin: auto;
+}
+
+.about-main{
+  width: 90vw;
+  margin: auto;
+}
+
+.logo-main{
+  width: 90vw;
+  margin: auto;
+}
+
+.past_events-main{
+  width: 90vw;
+  margin: auto;
+}
+
+.partners-main{
+  width: 90vw;
+  margin: auto;
+}
+
+.footer-main{
+  width: 90vw;
+  margin: auto;
+}
