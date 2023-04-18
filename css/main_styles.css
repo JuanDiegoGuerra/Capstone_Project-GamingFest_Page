@@ -1,23 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-  }
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
 
-  :root {
-    /* COLORS */
-    --gray: #272a31;
-    --orange: #ec5242;
-    --lightgray: #d3d3d3;
-  }
-  
-  body {
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    background-color: var(--gray);
-  }
-  
-  .no-scroll {
-    overflow: hidden;
-  }
+:root {
+  /* COLORS */
+  --gray: #272a31;
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: var(--lightgray);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
