@@ -117,4 +117,6 @@ body {
 .event-button a{
   padding: 5vw;
     background-color: var(--orange);
+    text-decoration: none;
+    color: var(--lightgray);
 }
