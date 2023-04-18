@@ -4,7 +4,7 @@
 }
 
 :root {
-  /* COLORS */
+  /*------ ROOT COLORS ------*/
   --gray: #272a31;
   --orange: #ec5242;
   --lightgray: #d3d3d3;
@@ -21,7 +21,7 @@ body {
   overflow: hidden;
 }
 
-/* ------ Main Containers ------*/
+/* ------------ Main Containers ------------*/
 
 .home-main{
   width: 90vw;
@@ -31,6 +31,7 @@ body {
 .event-main{
   width: 90vw;
   margin: auto;
+  color: var(--lightgray);
 }
 
 .games-main{
@@ -63,14 +64,57 @@ body {
   margin: auto;
 }
 
-/* ------ Main Sections Divs ------*/
+/* ------------ Main Sections Divs ------------*/
 
-/* HOME */
+/* ------ HOME ------*/
 .home-parragraf{
   BORDER: 2.5px white solid;
   border-radius: 3px;
+  color: var(--gray);
 }
 
 #home-parragraf{
   margin: 3vh 5vw 3vh 4vw;
+}
+
+/* ------ MAIN EVENT ------*/
+.event-container{
+  display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.main_event-section{
+  background-color: var(--gray);
+  padding-bottom: 2vh;
+  padding-top: 1vh;
+}
+
+.event-title{
+  text-align: center;
+}
+
+.event-act{
+  display: flex;
+  gap: 5vw;
+  background: rgba(221, 221, 221, .05);
+}
+
+.event-img{
+  width: 30vw;
+}
+
+.event-parragraf{
+  width: 70vw;
+  font-size: 3.5vw;
+}
+
+.event-button{
+  text-align: center;
+    margin: 5vh 2vh 4vh 2vh;
+}
+
+.event-button a{
+  padding: 5vw;
+    background-color: var(--orange);
 }
