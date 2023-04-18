@@ -76,7 +76,7 @@ html {
 /* ------------------ Main Sections Divs ------------------ */
 
 /* ------ HOME ------ */
-.home-section{
+.home-section {
   padding-top: 5vh;
 }
 
@@ -172,7 +172,7 @@ html {
 }
 
 /* ------ LOGO SECTION ------ */
-.logo-section{
+.logo-section {
   background-color: var(--white);
   padding-top: 1vh;
   padding-bottom: 2vh;
@@ -251,48 +251,49 @@ html {
 
 /* ------------------ MEDIA QUERIES  ------------------ */
 @media screen and (max-width: 600px) {
-.menu {
-  display: block;
-  position: fixed;
-}
+  .menu {
+    display: block;
+    position: fixed;
+  }
 
-.menu.active .menu-line:nth-child(2) {
-  opacity: 0;
-}
+  .menu.active .menu-line:nth-child(2) {
+    opacity: 0;
+  }
 
-.menu.active .menu-line:nth-child(1) {
-  transform: translateY(12px) rotate(45deg);
-}
+  .menu.active .menu-line:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+  }
 
-.menu.active .menu-line:nth-child(3) {
-  transform: translateY(-5px) rotate(-45deg);
-}
+  .menu.active .menu-line:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+  }
 
-.flex-nav-list {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  left: -150%;
-  top: -30px;
-  padding-top: 10px;
-  bottom: 30px;
-  gap: 10px;
-  background-color: #fff;
-  width: 100%;
-  font-weight: 600;
-  border-bottom-left-radius: 30px;
-  box-shadow: 0 48px 48px var(--orange);
-}
+  .flex-nav-list {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -150%;
+    top: -30px;
+    padding-top: 10px;
+    bottom: 30px;
+    gap: 10px;
+    background-color: #fff;
+    width: 100%;
+    font-weight: 600;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 48px 48px var(--orange);
+  }
 
-.flex-nav-list.active {
-  left: 0;
-  padding-top: 8vh;
-}
+  .flex-nav-list.active {
+    left: 0;
+    padding-top: 8vh;
+  }
 
-.flex-nav-list.active li{
-  list-style-type: none;
-}
-.flex-nav-list.active a{
-  text-decoration: none;
-}
+  .flex-nav-list.active li {
+    list-style-type: none;
+  }
+
+  .flex-nav-list.active a {
+    text-decoration: none;
+  }
 }
