@@ -21,7 +21,7 @@ body {
   overflow: hidden;
 }
 
-/* main containers */
+/* ------ Main Containers ------*/
 
 .home-main{
   width: 90vw;
@@ -61,4 +61,16 @@ body {
 .footer-main{
   width: 90vw;
   margin: auto;
+}
+
+/* ------ Main Sections Divs ------*/
+
+/* HOME */
+.home-parragraf{
+  BORDER: 2.5px white solid;
+  border-radius: 3px;
+}
+
+#home-parragraf{
+  margin: 3vh 5vw 3vh 4vw;
 }
