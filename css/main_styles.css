@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  line-height: 3vh;
 }
 
 :root {
@@ -119,4 +120,29 @@ body {
     background-color: var(--orange);
     text-decoration: none;
     color: var(--lightgray);
+}
+
+/* ------ ABOUT / CONTACT ------*/
+.about-title{
+  text-align: center;
+}
+
+.about-parragraf{
+  border: 1px var(--gray) solid;
+  border-radius: 3px;
+  background-color: #eaeaea;
+}
+
+.about-parragraf p{
+  margin: 3vh 5vw 3vh 4vw;
+}
+
+.about-parragraf-2 p{
+  margin: 3vh 5vw 3vh 4vw;
+  text-align: center;
+}
+
+.about-parragraf-2 a{
+  color: var(--gray);
+  font-weight: bold;
 }
