@@ -65,7 +65,6 @@ body {
 }
 
 .footer-main {
-  width: 90vw;
   margin: auto;
 }
 
@@ -107,6 +106,16 @@ body {
 
 .event-img {
   width: 30vw;
+  align-self: center;
+  margin-left: 3vw;
+}
+
+.event-img img {
+  border-radius: 15px;
+}
+
+.event-items {
+  color: var(--orange);
 }
 
 .event-parragraf {
@@ -124,6 +133,7 @@ body {
   background-color: var(--orange);
   text-decoration: none;
   color: var(--lightgray);
+  border-radius: 10px;
 }
 
 /* ------ ABOUT / CONTACT ------ */
@@ -152,8 +162,24 @@ body {
 }
 
 /* ------ LOGO SECTION ------ */
+.logo-img img {
+  border: 1px var(--gray) solid;
+  border-radius: 10px;
+}
 
 /* ------ PAST EVENTS ------ */
+.past_events-imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.past_events-imgs img {
+  border-radius: 10px;
+}
+
+.past_events-section {
+  margin-bottom: 3vh;
+}
 
 /* ------ PARTNERS ------ */
 .partners-section {
