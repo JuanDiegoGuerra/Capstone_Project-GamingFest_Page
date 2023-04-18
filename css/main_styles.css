@@ -14,7 +14,7 @@
     margin: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: var(--gray);
+    background-color: var(--lightgray);
   }
   
   .no-scroll {
