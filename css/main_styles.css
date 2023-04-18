@@ -250,32 +250,32 @@ html {
 }
 
 /* ------------------ FEATURED GAME CARDS  ------------------ */
-.features_games-section{
+.features_games-section {
   background-color: var(--white);
   padding-top: 3vh;
 }
 
-#games-title{
+#games-title {
   text-align: center;
 }
 
-.game{
+.game {
   width: 90vw;
   margin-left: 5vw;
   padding-bottom: 3vh;
 }
 
-.game-tools{
+.game-tools {
   list-style-type: none;
   color: var(--orange);
   font-weight: bold;
 }
 
-.game-img{
+.game-img {
   border-radius: 15px;
 }
 
-.game-hover{
+.game-hover {
   font-size: 4vw;
 }
 
