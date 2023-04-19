@@ -528,12 +528,44 @@ html {
     text-decoration: underline;
   }
 
+  .game{
+    width: 40vw;
+  }
+
   .game-hover{
     font-size: 3vw;
   }
 
+  #games-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5vh;
+  }
+
+  .game-img{
+    width: 90%;
+  }
+
+  .jdx{
+    line-height: 1vh;
+  }
+
+  .game-tools{
+    font-size: 1.5vw;
+  }
+
+  .game-name{
+    font-size: 2.5vw;
+  }
+
+  .games-title{
+    padding-bottom: 2.5vh;
+    font-size: 1.5vw;
+  }
+
   .notes{
-    line-height: 5vh;
+    line-height: 4vh;
+    font-size: 1vw;
   }
 
   .event-img {
@@ -566,10 +598,20 @@ html {
 }
 
 .logo-img img{
-  width: 70%;
+  width: 40%;
 }
 
 .past_events-imgs img{
-  width: 65%;
+  width: 35%;
+}
+
+.about-parragraf {
+  text-align: center;
+  width: 50vw;
+  margin-left: 20vw;
+}
+
+.partners-main img{
+  width: 50%;
 }
 }
