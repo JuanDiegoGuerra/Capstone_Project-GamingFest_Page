@@ -110,7 +110,7 @@ html {
 .event-act {
   display: flex;
   gap: 5vw;
-  background: rgba(221, 221, 221, 0.05);
+  background: rgba(221, 221, 221, 0.2);
 }
 
 .event-img {
@@ -432,7 +432,7 @@ html {
   .event-act {
     height: 70vh;
     display: grid;
-    background: rgba(221, 221, 221, 0.05);
+    background: rgba(221, 221, 221, 0.2);
     gap: 0;
   }
 
@@ -459,7 +459,7 @@ html {
   }
 
   .home-parragraf {
-    width: 50vw;
+    width: 40vw;
     margin-left: 20vw;
     font-size: 1.2vw;
   }
@@ -563,8 +563,8 @@ html {
   }
 
   .games-title {
-    padding-bottom: 2.5vh;
-    font-size: 1.5vw;
+    padding-bottom: 10vh;
+    font-size: 2.5vw;
   }
 
   .notes {
@@ -599,7 +599,7 @@ html {
   .event-act {
     height: 45vh;
     display: grid;
-    background: rgba(221, 221, 221, 0.05);
+    background: rgba(221, 221, 221, 0.2);
     gap: 0;
   }
 
@@ -609,6 +609,11 @@ html {
 
   .past_events-imgs img {
     width: 35%;
+  }
+
+  .about_contact-section{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
 
   .about-parragraf {
@@ -629,6 +634,10 @@ html {
   #about-title{
     font-size: 2vw;
     line-height: 4vh;
+  }
+
+  .logo-section{
+    padding-bottom: 4vh;
   }
 
   #logo-title{
