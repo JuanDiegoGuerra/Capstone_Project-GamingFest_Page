@@ -273,6 +273,7 @@ html {
 
 .game-img {
   border-radius: 15px;
+  width: 80%;
 }
 
 .game-hover {
@@ -308,7 +309,7 @@ html {
     padding-top: 10px;
     bottom: 30px;
     gap: 10px;
-    background-color: #fff;
+    background-color: var(--white);
     width: 100%;
     font-weight: 600;
     border-bottom-left-radius: 30px;
@@ -331,10 +332,244 @@ html {
 
 /* ------ SMALL DESKTOP SIZE ------ */
 @media (min-width: 601px) and (max-width: 1024px) {
+  .home-main{
+    text-align: center;
+  }
+
+  .home-parragraf{
+    width: 80vw;
+    margin-left: 5vw;
+  }
+
+  .menu-line {
+    display: none;
+  }
+
+  .primary-logo{
+    display: block;
+    margin: 1vh 15vw 1vh 1vw;
+    border-radius: 35px;
+  }
+
+  .flex-nav-list {
+    position: absolute;
+    width: auto;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;    
+    margin-left: 20vw;
+  }
+
+  .flex-nav-list a{
+    text-decoration: none;
+  }
+
+  .flex-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .list-item {
+    list-style-type: none;
+    padding: 10px 12px;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--gray);
+    font-size: 2.5vw;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  #homie{
+    display: none;
+  }
   
+  .event-parragraf{
+    line-height: 5vh;
+    font-size: 2.5vw;
+  }
+
+  .event-button a{
+    padding: 3vw;
+  }
+
+  .game-hover{
+    font-size: 3vw;
+  }
+
+  .notes{
+    line-height: 5vh;
+  }
+
+  .event-img {
+    width: 35vw;
+    align-self: center;
+    margin-left: 3vw;
+    margin-top: 2vh;
+}
+.event-parragraf {
+  text-align: center;
+  width: 40vw;
+  font-size: 3.5vw;
+}
+
+.event-parragraf p{
+  line-height: 4vh;  
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1.5vh;
+}
+
+.event-act {
+  height: 70vh;
+  display: grid;
+  background: rgba(221, 221, 221, 0.05);
+  gap: 0;
+}
+
+.logo-img img{
+  width: 70%;
+}
+
+.past_events-imgs img{
+  width: 65%;
+}
+
 }
 
 /* ------ NORMAL DESKTOP SIZE ------ */
 @media screen and (min-width: 1025px) {
 
+  .home-main{
+    text-align: center;
+  }
+
+  .home-parragraf{
+    width: 50vw;
+    margin-left: 20vw;
+  }
+
+  .menu-line {
+    display: none;
+  }
+
+  .primary-logo{
+    display: block;
+    margin: 0.5vh 15vw 1vh 1vw;
+    border-radius: 35px;
+  }
+
+  .flex-nav-list {
+    position: absolute;
+    width: auto;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;    
+    margin-left: 15vw;
+  }
+
+  .flex-nav-list a{
+    text-decoration: none;
+  }
+
+  .flex-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .list-item {
+    list-style-type: none;
+    padding: 10px 12px;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--gray);
+    font-size: 1vw;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  #homie{
+    display: none;
+  }
+  
+  .event-parragraf{
+    line-height: 5vh;
+    font-size: 1vw;
+  }
+
+  .event-button {
+    text-align: center;
+    margin: 5vh 2vh 4vh 2vh;
+}
+
+  .event-button a{
+    padding: 3vw;
+    background:none;
+    border-radius: 0;
+    text-decoration: underline;
+  }
+
+  .game-hover{
+    font-size: 3vw;
+  }
+
+  .notes{
+    line-height: 5vh;
+  }
+
+  .event-img {
+    width: 12vw;
+    align-self: center;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+}
+.event-parragraf {
+  text-align: center;
+  width: 17vw;
+  font-size: 1vw;
+}
+
+.event-parragraf p{
+  line-height: 4vh;  
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 1.5vh;
+}
+
+.event-act {
+  height: 45vh;
+  display: grid;
+  background: rgba(221, 221, 221, 0.05);
+  gap: 0;
+}
+
+.logo-img img{
+  width: 70%;
+}
+
+.past_events-imgs img{
+  width: 65%;
+}
 }
