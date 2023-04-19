@@ -5,79 +5,84 @@
     background-position: 2% 70%;
 } */
 @media screen and (min-width: 1025px) {
-.home-section{
-    background-image: url(../img/svg/microphone.svg),
-                      url(../img/svg/speaker.svg),
-                      url(../img/svg/laptop.svg),
-                      url(../img/svg/big_robot.svg),
-                      url(../img/svg/galaxy_retro.svg);
+  .home-section {
+    background-image:
+      url(../img/svg/microphone.svg),
+      url(../img/svg/speaker.svg),
+      url(../img/svg/laptop.svg),
+      url(../img/svg/big_robot.svg),
+      url(../img/svg/galaxy_retro.svg);
     background-repeat: no-repeat;
     background-size: 4%, 4%, 4%, 25%, 17%;
     background-position: 97% 25%, 97% 50%, 97% 75%, 90% 50%, 3.5% 50%;
-}
+  }
 
-.game{
+  .game {
     background-image: url(../img/svg/dotter_circle.svg);
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: 100% 40%;
-}
+  }
 
-.main_event-section{
+  .main_event-section {
     background-image: url(../img/svg/stripe_square.svg);
     background-repeat: repeat;
     background-size: 2.5%;
-}
+  }
 
-.features_games-section{
-    background-image: url(../img/svg/retro_controller2.svg),
-                      url(../img/svg/knight_helmet.svg),
-                      url(../img/svg/arcade_machine.svg),
-                      url(../img/svg/simple_joystick.svg),
-                      url(../img/svg/robotic_head.svg),
-                      url(../img/svg/axes.svg),
-                      url(../img/svg/csgo_duckgun.svg),
-                      url(../img/svg/soldier.svg),
-                      url(../img/svg/crown.svg);
+  .features_games-section {
+    background-image:
+      url(../img/svg/retro_controller2.svg),
+      url(../img/svg/knight_helmet.svg),
+      url(../img/svg/arcade_machine.svg),
+      url(../img/svg/simple_joystick.svg),
+      url(../img/svg/robotic_head.svg),
+      url(../img/svg/axes.svg),
+      url(../img/svg/csgo_duckgun.svg),
+      url(../img/svg/soldier.svg),
+      url(../img/svg/crown.svg);
     background-repeat: no-repeat;
     background-size: 10%, 17%, 10%, 10%, 15%, 10%, 7%, 10%, 10%;
-    background-position: 96% 0%,
-                         -1% 3%,
-                         53.5% 45%,
-                         85% 62%,
-                         -1% 45%,
-                         99% 73%,
-                         54% 7%,
-                         51% 77%,
-                         24.5% 72.5%;
-}
+    background-position:
+      96% 0%,
+      -1% 3%,
+      53.5% 45%,
+      85% 62%,
+      -1% 45%,
+      99% 73%,
+      54% 7%,
+      51% 77%,
+      24.5% 72.5%;
+  }
 
-.logo-section{
-    background-image: url(../img/svg/micronout.svg),
-                      url(../img/svg/space_rocket.svg);
+  .logo-section {
+    background-image:
+      url(../img/svg/micronout.svg),
+      url(../img/svg/space_rocket.svg);
     background-repeat: no-repeat;
     background-size: 10%, 16%;
     background-position: 10% 70%, 90% 70%;
-}
+  }
 
-.past_events-section{
-    background-image: url(../img/svg/saturn_planet.svg),
-                      url(../img/svg/earth_planet.svg);
+  .past_events-section {
+    background-image:
+      url(../img/svg/saturn_planet.svg),
+      url(../img/svg/earth_planet.svg);
     background-repeat: no-repeat;
     background-size: 20%, 16%;
     background-position: 15% 30%, 82% 85%;
-}
+  }
 
-.about_contact-section{
-    background-image: url(../img/svg/stripe_galaxy.svg),
-                      url(../img/svg/stripe_galaxy.svg),
-                      url(../img/svg/stripe_galaxy.svg),
-                      url(../img/svg/stripe_galaxy.svg),
-                      url(../img/svg/stripe_galaxy.svg),
-                      url(../img/svg/stripe_galaxy.svg);
+  .about_contact-section {
+    background-image:
+      url(../img/svg/stripe_galaxy.svg),
+      url(../img/svg/stripe_galaxy.svg),
+      url(../img/svg/stripe_galaxy.svg),
+      url(../img/svg/stripe_galaxy.svg),
+      url(../img/svg/stripe_galaxy.svg),
+      url(../img/svg/stripe_galaxy.svg);
     background-repeat: no-repeat;
     background-size: 15%, 15%, 7%, 7%, 7%, 7%;
     background-position: 5% 40%, 95% 40%, 20% 10%, 20% 75%, 80% 10%, 80% 75%;
-}
-
+  }
 }

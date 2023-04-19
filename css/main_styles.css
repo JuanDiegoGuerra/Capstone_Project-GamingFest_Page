@@ -447,13 +447,13 @@ html {
 
 /* ------ NORMAL DESKTOP SIZE ------ */
 @media screen and (min-width: 1025px) {
-
-  #home-title{
+  #home-title {
     font-size: 2.5vw;
     line-height: 5vh;
     margin-left: 20vw;
   }
-  #home-title2{
+
+  #home-title2 {
     font-size: 2vw;
     margin-left: 20vw;
   }
@@ -611,7 +611,7 @@ html {
     width: 35%;
   }
 
-  .about_contact-section{
+  .about_contact-section {
     padding-top: 3vh;
     padding-bottom: 3vh;
   }
@@ -623,37 +623,37 @@ html {
     font-size: 1.2vw;
   }
 
-  .about-parragraf-2{
+  .about-parragraf-2 {
     font-size: 1.3vw;
   }
 
-  .about-parragraf-2 p{
+  .about-parragraf-2 p {
     line-height: 5vh;
   }
 
-  #about-title{
+  #about-title {
     font-size: 2vw;
     line-height: 4vh;
   }
 
-  .logo-section{
+  .logo-section {
     padding-bottom: 4vh;
   }
 
-  #logo-title{
+  #logo-title {
     font-size: 2vw;
     line-height: 4vh;
   }
 
-  .logo-title p{
+  .logo-title p {
     font-size: 1.5vw;
   }
 
-  .past_events-title{
+  .past_events-title {
     font-size: 1.5vw;
   }
 
-  .past_events-title p{
+  .past_events-title p {
     font-size: 1vw;
   }
 
