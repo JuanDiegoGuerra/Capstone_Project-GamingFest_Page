@@ -280,6 +280,7 @@ html {
 }
 
 /* ------------------ MEDIA QUERIES  ------------------ */
+/* ------ MOBILE ------ */
 @media screen and (max-width: 600px) {
   .menu {
     display: block;
@@ -326,4 +327,14 @@ html {
   .flex-nav-list.active a {
     text-decoration: none;
   }
+}
+
+/* ------ SMALL DESKTOP SIZE ------ */
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+/* ------ NORMAL DESKTOP SIZE ------ */
+@media screen and (min-width: 1025px) {
+
 }
