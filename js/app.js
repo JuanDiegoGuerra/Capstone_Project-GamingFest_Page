@@ -56,20 +56,20 @@ const FeaturedGames = [
   },
 ];
 
-const FeaturedGameContainer = document.getElementById('features_games-section');
+const FeaturedGameContainer = document.getElementById('games-main');
 
 FeaturedGames.map((game) => {
   FeaturedGameContainer.innerHTML += `
   <div id="${game.id}" class="game">
-<img class="game-img" src="${game.image[0]}" width="100%" alt="featured_game">
+    <img class="game-img" src="${game.image[0]}" width="100%" alt="featured_game">
   <div class="game-hover">       
-  <h2 class="game-name jdx">${game.name}</h2>
-  <ul class="game-tools jdx">
-    <li class="game-tool">${game.category}</li>
-  </ul>
-  <p class="notes">${game.description}</p>
-</div>
-</div>
+    <h2 class="game-name jdx">${game.name}</h2>
+    <ul class="game-tools jdx">
+      <li class="game-tool">${game.category}</li>
+    </ul>
+    <p class="notes">${game.description}</p>
+  </div>
+  </div>
   `;
   return '';
 });
