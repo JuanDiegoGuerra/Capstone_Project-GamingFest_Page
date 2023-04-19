@@ -285,6 +285,10 @@ html {
 
 /* ------ MOBILE ------ */
 @media screen and (max-width: 600px) {
+  .flex-navbar {
+    background-color: var(--gray);
+  }
+
   .menu {
     display: block;
     position: fixed;
