@@ -281,6 +281,7 @@ html {
 }
 
 /* ------------------ MEDIA QUERIES  ------------------ */
+
 /* ------ MOBILE ------ */
 @media screen and (max-width: 600px) {
   .menu {
@@ -332,11 +333,11 @@ html {
 
 /* ------ SMALL DESKTOP SIZE ------ */
 @media (min-width: 601px) and (max-width: 1024px) {
-  .home-main{
+  .home-main {
     text-align: center;
   }
 
-  .home-parragraf{
+  .home-parragraf {
     width: 80vw;
     margin-left: 5vw;
   }
@@ -345,7 +346,7 @@ html {
     display: none;
   }
 
-  .primary-logo{
+  .primary-logo {
     display: block;
     margin: 1vh 15vw 1vh 1vw;
     border-radius: 35px;
@@ -359,11 +360,11 @@ html {
     flex-direction: row;
     align-items: center;
     padding: 0;
-    gap: 8px;    
+    gap: 8px;
     margin-left: 20vw;
   }
 
-  .flex-nav-list a{
+  .flex-nav-list a {
     text-decoration: none;
   }
 
@@ -388,24 +389,19 @@ html {
     top: 25px;
   }
 
-  #homie{
+  #homie {
     display: none;
   }
-  
-  .event-parragraf{
-    line-height: 5vh;
-    font-size: 2.5vw;
-  }
 
-  .event-button a{
+  .event-button a {
     padding: 3vw;
   }
 
-  .game-hover{
+  .game-hover {
     font-size: 3vw;
   }
 
-  .notes{
+  .notes {
     line-height: 5vh;
   }
 
@@ -414,48 +410,48 @@ html {
     align-self: center;
     margin-left: 3vw;
     margin-top: 2vh;
-}
-.event-parragraf {
-  text-align: center;
-  width: 40vw;
-  font-size: 3.5vw;
-}
+  }
 
-.event-parragraf p{
-  line-height: 4vh;  
-}
+  .event-parragraf {
+    text-align: center;
+    width: 40vw;
+    font-size: 3.5vw;
+    line-height: 5vh;
+  }
 
-.event-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 1.5vh;
-}
+  .event-parragraf p {
+    line-height: 4vh;
+  }
 
-.event-act {
-  height: 70vh;
-  display: grid;
-  background: rgba(221, 221, 221, 0.05);
-  gap: 0;
-}
+  .event-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5vh;
+  }
 
-.logo-img img{
-  width: 70%;
-}
+  .event-act {
+    height: 70vh;
+    display: grid;
+    background: rgba(221, 221, 221, 0.05);
+    gap: 0;
+  }
 
-.past_events-imgs img{
-  width: 65%;
-}
+  .logo-img img {
+    width: 70%;
+  }
 
+  .past_events-imgs img {
+    width: 65%;
+  }
 }
 
 /* ------ NORMAL DESKTOP SIZE ------ */
 @media screen and (min-width: 1025px) {
-
-  .home-main{
+  .home-main {
     text-align: center;
   }
 
-  .home-parragraf{
+  .home-parragraf {
     width: 50vw;
     margin-left: 20vw;
   }
@@ -464,7 +460,7 @@ html {
     display: none;
   }
 
-  .primary-logo{
+  .primary-logo {
     display: block;
     margin: 0.5vh 15vw 1vh 1vw;
     border-radius: 35px;
@@ -478,11 +474,11 @@ html {
     flex-direction: row;
     align-items: center;
     padding: 0;
-    gap: 8px;    
+    gap: 8px;
     margin-left: 15vw;
   }
 
-  .flex-nav-list a{
+  .flex-nav-list a {
     text-decoration: none;
   }
 
@@ -507,63 +503,58 @@ html {
     top: 25px;
   }
 
-  #homie{
+  #homie {
     display: none;
-  }
-  
-  .event-parragraf{
-    line-height: 5vh;
-    font-size: 1vw;
   }
 
   .event-button {
     text-align: center;
     margin: 5vh 2vh 4vh 2vh;
-}
+  }
 
-  .event-button a{
+  .event-button a {
     padding: 3vw;
-    background:none;
+    background: none;
     border-radius: 0;
     text-decoration: underline;
   }
 
-  .game{
+  .game {
     width: 40vw;
   }
 
-  .game-hover{
+  .game-hover {
     font-size: 3vw;
   }
 
-  #games-main{
+  #games-main {
     display: grid;
     grid-template-columns: auto auto;
     gap: 1.5vh;
   }
 
-  .game-img{
+  .game-img {
     width: 90%;
   }
 
-  .jdx{
+  .jdx {
     line-height: 1vh;
   }
 
-  .game-tools{
+  .game-tools {
     font-size: 1.5vw;
   }
 
-  .game-name{
+  .game-name {
     font-size: 2.5vw;
   }
 
-  .games-title{
+  .games-title {
     padding-bottom: 2.5vh;
     font-size: 1.5vw;
   }
 
-  .notes{
+  .notes {
     line-height: 4vh;
     font-size: 1vw;
   }
@@ -573,45 +564,47 @@ html {
     align-self: center;
     margin-left: 2.5vw;
     margin-top: 2vh;
-}
-.event-parragraf {
-  text-align: center;
-  width: 17vw;
-  font-size: 1vw;
-}
+  }
 
-.event-parragraf p{
-  line-height: 4vh;  
-}
+  .event-parragraf {
+    text-align: center;
+    width: 17vw;
+    font-size: 1vw;
+    line-height: 5vh;
+  }
 
-.event-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  gap: 1.5vh;
-}
+  .event-parragraf p {
+    line-height: 4vh;
+  }
 
-.event-act {
-  height: 45vh;
-  display: grid;
-  background: rgba(221, 221, 221, 0.05);
-  gap: 0;
-}
+  .event-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1.5vh;
+  }
 
-.logo-img img{
-  width: 40%;
-}
+  .event-act {
+    height: 45vh;
+    display: grid;
+    background: rgba(221, 221, 221, 0.05);
+    gap: 0;
+  }
 
-.past_events-imgs img{
-  width: 35%;
-}
+  .logo-img img {
+    width: 40%;
+  }
 
-.about-parragraf {
-  text-align: center;
-  width: 50vw;
-  margin-left: 20vw;
-}
+  .past_events-imgs img {
+    width: 35%;
+  }
 
-.partners-main img{
-  width: 50%;
-}
+  .about-parragraf {
+    text-align: center;
+    width: 50vw;
+    margin-left: 20vw;
+  }
+
+  .partners-main img {
+    width: 50%;
+  }
 }
