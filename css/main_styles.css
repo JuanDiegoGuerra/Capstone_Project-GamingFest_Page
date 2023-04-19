@@ -216,6 +216,7 @@ html {
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
+  height: 7.2vh;
 }
 
 .display-flex-column,
@@ -488,7 +489,7 @@ html {
     align-items: center;
     padding: 0;
     gap: 8px;
-    margin-left: 15vw;
+    height: 2.5vh;
   }
 
   .flex-nav-list a {
