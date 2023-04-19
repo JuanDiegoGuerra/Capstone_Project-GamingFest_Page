@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg18586" viewBox="0 0 212.6 212.6" version="1.0">
+  <g id="layer1" transform="translate(17.728 7.9865)">
+    <path id="path18530" d="m88.571-7.9865c58.549 0 106.3 47.752 106.3 106.3 0 58.546-47.75 106.3-106.3 106.3-58.546 0-106.3-47.75-106.3-106.3 0.002-58.545 47.754-106.3 106.3-106.3zm-2.517 107.58c3.368 0 6.481 1.126 8.984 3.016-2.28-1.88-5.067-3.205-8.184-3.717-9.418-1.545-18.359 4.877-19.906 14.287-0.048 0.3-0.088 0.6-0.121 0.89-8.975-3.47-14.652-12.91-13.035-22.765l5.613-34.191 38.686 4.176c0.779 0.083 1.521-0.802 1.647-1.968 0.127-1.166-0.411-2.19-1.19-2.273l-38.451-4.15 0.422-2.57 38.702 4.178c0.779 0.083 1.519-0.802 1.649-1.969 0.12-1.166-0.41-2.188-1.192-2.272l-38.467-4.152 0.604-3.68 38.535 4.158c0.78 0.084 1.52-0.8 1.65-1.967 0.13-1.166-0.41-2.19-1.19-2.274l-38.303-4.133 0.575-3.507 38.848 4.194c0.78 0.083 1.53-0.802 1.65-1.968 0.13-1.166-0.41-2.189-1.19-2.273l-38.616-4.167 0.641-3.9c4.697-28.614 63.935-20.855 58.925 9.672l-10.63 64.711c-1.12 6.85-5.52 12.38-11.34 15.26 0.03-2.17-0.35-4.29-1.08-6.25 0.46 1.44 0.71 2.97 0.71 4.55 0 6.96-4.786 12.83-11.237 14.49v52.91c0 3.24-2.156 5.9-4.792 5.9h-6.637c-2.636 0-4.793-2.66-4.793-5.9v-59.23c-1.539-2.35-2.437-5.16-2.437-8.17 0-8.23 6.715-14.946 14.95-14.946z" fill-rule="evenodd" fill="#f00" class="fil1"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>icon microphone</dc:title>
+        <dc:date>2007-04-18T02:52:49</dc:date>
+        <dc:description>simple red circular icon with white simplified microphone</dc:description>
+        <dc:source>http://openclipart.org/detail/3989/icon-microphone-by-jportugall</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>JPortugall</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>event</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>microphone</rdf:li>
+            <rdf:li>organization</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
