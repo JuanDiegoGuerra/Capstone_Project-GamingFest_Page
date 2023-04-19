@@ -1,0 +1,50 @@
+:root {
+    /* ------ ROOT COLORS ------ */
+    --gray: #272a31;
+    --orange: #ec5242;
+    --lightgray: #d3d3d3;
+    --white: #eaeaea;
+  }
+/* ---------------------------- TRANSITIONS ---------------------------- */
+
+/* ----- TOP MENU (Portfolio/About/Contact) ----- */
+@media screen and (min-width: 768px) {
+    .list-item {
+      transition: transform 0.5s;
+    }
+  
+    .list-item:hover {
+      transform: scale(1.2);
+      margin: 0;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    }
+  }
+
+  .primary-logo{
+    transition: tranform 0.5s;
+  }
+
+  .primary-logo:hover{
+    transform: scale(0.8);
+  }
+
+  .past_events-imgs img{
+    transition: 1s;
+  }
+
+  .past_events-imgs img:hover{
+    opacity: 50%;
+  }
+
+  .event-act{
+    transition: transform 0.5s;
+  }
+
+  .event-act:hover{
+    transform: scale(1.1);
+    border: 2px var(--orange) solid;
+  }
+
+
+  
