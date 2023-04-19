@@ -1,45 +1,52 @@
 /* ---------------------------- SPECIAL EFFECTS ---------------------------- */
- /* ------------ Featured Games Img ------------ */
-  .game-img {
-    --c: #ec5242; /* the border color */
-    --b: 7px;    /* the border thickness*/
-    --g: 2px;     /* the gap on hover */
-    
-    padding: calc(var(--g) + var(--b));
-    --_g: #0000 25%,var(--c) 0;
-    background: 
-      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
-    cursor: pointer;
-  }
 
-  .game-img:hover {
-    --_i: 100%;
-    transition: .3s, background-size .3s .3s;
-  }
+/* ------------ Featured Games Img ------------ */
+.game-img {
+  --c: #ec5242; /* the border color */
+  --b: 7px;    /* the border thickness */
+  --g: 2px;     /* the gap on hover */
 
-  /* ------------ Main Event img ------------ */
+  padding: calc(var(--g) + var(--b));
 
-  .event-img {
-    --c: #ec5242; /* the border color */
-    --b: 2px;    /* the border thickness*/
-    --g: 1px;     /* the gap on hover */
-    
-    padding: calc(var(--g) + var(--b));
-    --_g: #0000 25%,var(--c) 0;
-    background: 
-      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
-    cursor: pointer;
-  }
+  --_g: #0000 25%, var(--c) 0;
 
-  .event-img:hover {
-    --_i: 100%;
-    transition: .3s, background-size .3s .3s;
-  }
+  background:
+    conic-gradient(from 180deg at top    var(--b) right var(--b), var(--_g))
+    var(--_i, 200%) 0  /200% var(--_i, var(--b))  no-repeat,
+    conic-gradient(at bottom var(--b) left  var(--b), var(--_g))
+    0   var(--_i, 200%)/var(--_i, var(--b)) 200%  no-repeat;
+  transition: 0.3s, background-position 0.3s 0.3s;
+  cursor: pointer;
+}
+
+.game-img:hover {
+  --_i: 100%;
+
+  transition: 0.3s, background-size 0.3s 0.3s;
+}
+
+/* ------------ Main Event img ------------ */
+
+.event-img {
+  --c: #ec5242; /* the border color */
+  --b: 2px;    /* the border thickness */
+  --g: 1px;     /* the gap on hover */
+
+  padding: calc(var(--g) + var(--b));
+
+  --_g: #0000 25%, var(--c) 0;
+
+  background:
+    conic-gradient(from 180deg at top    var(--b) right var(--b), var(--_g))
+    var(--_i, 200%) 0  /200% var(--_i, var(--b))  no-repeat,
+    conic-gradient(at bottom var(--b) left  var(--b), var(--_g))
+    0   var(--_i, 200%)/var(--_i, var(--b)) 200%  no-repeat;
+  transition: 0.3s, background-position 0.3s 0.3s;
+  cursor: pointer;
+}
+
+.event-img:hover {
+  --_i: 100%;
+
+  transition: 0.3s, background-size 0.3s 0.3s;
+}
