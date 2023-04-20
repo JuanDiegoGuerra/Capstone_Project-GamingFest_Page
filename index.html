@@ -9,12 +9,43 @@
     <link rel="stylesheet" href="css/animations_transitions.css">
     <link rel="stylesheet" href="css/game-img-special_effects.css">
     <link rel="stylesheet" href="css/background_elements.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Microverse Gaming Fest</title>
 </head>
 <body>
     <main>
+        <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Container wrapper -->
+    <div class="container">
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <ul class="navbar-nav d-flex flex-row">
+                <!-- Icons -->                
+                <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-facebook"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-twitter"></i></a></li>
+            </ul>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">English</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MyPage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
         <header>
+            
             <nav class="flex-navbar">
                 <div>
                     <a href="#">
@@ -23,9 +54,9 @@
                 </div>
                 <ul class="flex-nav-list">
                    <li class="list-item" id="homie"><a href="#home-section" class="nav-link">Home</a></li>
+                   <li class="list-item" id="about"><a href="about.html" class="nav-link">About</a></li>
                    <li class="list-item"><a href="#main_event-section" class="nav-link">Main Event</a></li>
-                   <li class="list-item"><a href="#features_games-section" class="nav-link">Featured Games</a></li>
-                   <li class="list-item"><a href="#about_contact-section" class="nav-link">About</a></li>
+                   <li class="list-item"><a href="#features_games-section" class="nav-link">Featured Games</a></li>                   
                    <li class="list-item"><a href="#partners-section" class="nav-link">Partners</a></li>
                 </ul>
                 <div class="menu">
@@ -63,9 +94,9 @@
         <section class="main_event-section" id="main_event-section">
             <div class="event-main">
                 <div class="event-title">
-                    <h1 id="event-title">
+                    <h2 id="event-title">
                         MAIN EVENT
-                    </h1>
+                    </h2>
                 </div>
                 <div class="event-container">
                     <div class="event-act act1">
@@ -136,73 +167,14 @@
                 <div class="games-title">
                     <h2 id="games-title"> Featured Games</h2>
                 </div>
-                <div id="games-main"></div>
+                <div id="games-main">
+                </div>
+                <button class="see-more-btn hide-desktop lato" id="see-more">
+                    MORE <img src="img/svg/arrow.svg" alt="" />
+                </button>
             </div>
-        </section>
-        <section class="about_contact-section" id="about_contact-section">
-            <div class="about-main">
-                <div class="about-title">
-                    <h2 id="about-title">
-                        MICROVERSE GAMING FEST <br>
-                        VIRTUAL EVENT 2023
-                    </h2>
-                </div>
-                <div class="about-parragraf">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Delectus tempore commodi labore soluta ullam id similique, 
-                        voluptatibus repudiandae necessitatibus asperiores illo, ipsum harum eveniet. 
-                        Facere quaerat eum nulla esse vitae!
-                    </p>
-                </div>
-                <div class="about-parragraf-2">
-                    <p>
-                        Please contact us per email for any further questions about <br> 
-                        Microverse Gaming Fest 2023! <br>
-                        <a href="mailto:jdxelric@gmail.com">microversegamingfest2023@example.com</a>
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="logo-section">
-            <div class="logo-main">
-                <div class="logo-title">
-                    <h2 id="logo-title">
-                        Microverse Gaming Fest <br>
-                        Virtual Event 2023 Logo
-                    </h2>
-                    <p>
-                        The logo of Microverse Gaming Fest was made
-                        while building this project xd
-                    </p>
-                </div>
-                <div class="logo-img">
-                    <img src="img/MicroverseGamingFestLogo.png" width="95%" alt="MicroverseGF2023Logo">
-                </div>
-            </div>
-        </section>
-        <section class="past_events-section">
-            <div class="past_events-main">
-                <div class="past_events-title">
-                    <h2 id="past_events-title">
-                        See the past Microverse Gaming Fests
-                    </h2>
-                    <p>
-                        Take a look at the last two Microverse Gaming Fest wich took place
-                        in Saturn, 2022 and in the Earth, 2019.
-                    </p>
-                </div>
-                <div class="past_events-imgs">
-                    <a href="img/logo2k22.png" target="_blank">
-                        <img src="img/logo2k22.png" width="85%" alt="MicroverseGF2022">
-                    </a>
-                    <br>
-                    <a href="img/logo2k19.png" target="_blank">
-                        <img src="img/logo2k19.png" width="85%" alt="MicroverseGF2019">
-                    </a>
-                </div>
-            </div>
-        </section>
+            
+        </section>        
         <section class="partners-section" id="partners-section">
             <div class="partners-main">
                 <div class="partners-title">
@@ -218,12 +190,12 @@
         <footer class="footer-section">
             <div class="footer-main">
                 <div>
-                    <img src="img/footer_img_desktop.JPG" width="100%" alt="FooterLogo">
+                    <img src="img/footer_img_desktop_index.JPG" width="100%" alt="FooterLogo">
                 </div>
             </div>
         </footer>
     </main> 
     <script src="js/app.js"></script>
-    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
