@@ -208,6 +208,14 @@ VS Code and Google Chrome.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 😮 Interesting piece of code <a name="support"></a>
+
+> What I'm proud I've built.
+
+ - I'm proud that I've built a pretty cool style for my game cards, you can find the code in this link: [Game Cards - Special Effects](https://github.com/JuanDiegoGuerra/Capstone_Project-GamingFest_Page/blob/main/css/game-img-special_effects.css).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
