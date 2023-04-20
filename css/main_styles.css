@@ -1,0 +1,668 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  line-height: 3vh;
+}
+
+:root {
+  /* ------ ROOT COLORS ------ */
+  --gray: #272a31;
+  --orange: #ec5242;
+  --lightgray: #d3d3d3;
+  --white: #eaeaea;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: var(--lightgray);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* ------------------ Main Containers ------------------ */
+
+.home-main {
+  width: 90vw;
+  margin: auto;
+}
+
+.event-main {
+  width: 90vw;
+  margin: auto;
+  color: var(--lightgray);
+}
+
+.games-main {
+  width: 90vw;
+  margin: auto;
+}
+
+.about-main {
+  width: 90vw;
+  margin: auto;
+}
+
+.logo-main {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+
+.past_events-main {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+
+.partners-main {
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+  color: var(--lightgray);
+}
+
+.footer-main {
+  margin: auto;
+}
+
+/* ------------------ Main Sections Divs ------------------ */
+
+/* ------ HOME ------ */
+.home-section {
+  padding-top: 5vh;
+}
+
+.home-parragraf {
+  border: 2.5px white solid;
+  border-radius: 3px;
+  color: var(--gray);
+}
+
+#home-parragraf {
+  margin: 3vh 5vw 3vh 4vw;
+}
+
+/* ------ MAIN EVENT ------ */
+.event-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+}
+
+.main_event-section {
+  background-color: var(--gray);
+  padding-bottom: 2vh;
+  padding-top: 1vh;
+}
+
+.event-title {
+  text-align: center;
+}
+
+.event-act {
+  display: flex;
+  gap: 5vw;
+  background: rgba(221, 221, 221, 0.2);
+}
+
+.event-img {
+  width: 30vw;
+  align-self: center;
+  margin-left: 3vw;
+}
+
+.event-img img {
+  border-radius: 15px;
+}
+
+.event-items {
+  color: var(--orange);
+}
+
+.event-parragraf {
+  width: 70vw;
+  font-size: 3.5vw;
+}
+
+.event-button {
+  text-align: center;
+  margin: 5vh 2vh 4vh 2vh;
+}
+
+.event-button a {
+  padding: 5vw;
+  background-color: var(--orange);
+  text-decoration: none;
+  color: var(--lightgray);
+  border-radius: 10px;
+}
+
+/* ------ ABOUT / CONTACT ------ */
+.about-title {
+  text-align: center;
+  color: var(--orange);
+}
+
+.about-parragraf {
+  border: 1px var(--gray) solid;
+  border-radius: 3px;
+  background-color: var(--white);
+}
+
+.about-parragraf p {
+  margin: 3vh 5vw 3vh 4vw;
+}
+
+.about-parragraf-2 p {
+  margin: 3vh 5vw 3vh 4vw;
+  text-align: center;
+}
+
+.about-parragraf-2 a {
+  color: var(--gray);
+  font-weight: bold;
+}
+
+/* ------ LOGO SECTION ------ */
+.logo-section {
+  background-color: var(--white);
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+.logo-img img {
+  border: 1px var(--gray) solid;
+  border-radius: 10px;
+}
+
+/* ------ PAST EVENTS ------ */
+.past_events-imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.past_events-imgs img {
+  border-radius: 10px;
+}
+
+.past_events-section {
+  margin-bottom: 3vh;
+}
+
+/* ------ PARTNERS ------ */
+.partners-section {
+  background-color: var(--gray);
+  padding-bottom: 2vh;
+  padding-top: 1vh;
+}
+
+/* ------------------ ELEMENTS  ------------------ */
+.flex-nav-list {
+  display: none;
+}
+
+.flex-navbar {
+  background-color: var(--white);
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  height: 7.2vh;
+}
+
+.display-flex-column,
+.flex-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-list {
+  list-style: none;
+  width: 100%;
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  left: 2vw;
+  top: 15px;
+}
+
+.menu-line {
+  width: 25px;
+  height: 4px;
+  background-color: var(--orange);
+  border-radius: 2px;
+  margin-bottom: 15%;
+  margin-right: 5px;
+}
+
+.primary-logo {
+  display: none;
+}
+
+/* ------------------ FEATURED GAME CARDS  ------------------ */
+.features_games-section {
+  background-color: var(--white);
+  padding-top: 3vh;
+}
+
+#games-title {
+  text-align: center;
+}
+
+.game {
+  width: 90vw;
+  margin-left: 5vw;
+  padding-bottom: 3vh;
+}
+
+.game-tools {
+  list-style-type: none;
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.game-img {
+  border-radius: 15px;
+  width: 80%;
+}
+
+.game-hover {
+  font-size: 4vw;
+}
+
+/* ------------------ MEDIA QUERIES  ------------------ */
+
+/* ------ MOBILE ------ */
+@media screen and (max-width: 600px) {
+  .flex-navbar {
+    background-color: var(--gray);
+  }
+
+  .menu {
+    display: block;
+    position: fixed;
+  }
+
+  .menu.active .menu-line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu.active .menu-line:nth-child(1) {
+    transform: translateY(12px) rotate(45deg);
+  }
+
+  .menu.active .menu-line:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+
+  .flex-nav-list {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -150%;
+    top: -30px;
+    padding-top: 10px;
+    bottom: 30px;
+    gap: 10px;
+    background-color: var(--white);
+    width: 100%;
+    font-weight: 600;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 48px 48px var(--orange);
+  }
+
+  .flex-nav-list.active {
+    left: 0;
+    padding-top: 8vh;
+  }
+
+  .flex-nav-list.active li {
+    list-style-type: none;
+  }
+
+  .flex-nav-list.active a {
+    text-decoration: none;
+  }
+}
+
+/* ------ SMALL DESKTOP SIZE ------ */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .home-main {
+    text-align: center;
+  }
+
+  .home-parragraf {
+    width: 80vw;
+    margin-left: 5vw;
+  }
+
+  .menu-line {
+    display: none;
+  }
+
+  .primary-logo {
+    display: block;
+    margin: 1vh 15vw 1vh 1vw;
+    border-radius: 35px;
+  }
+
+  .flex-nav-list {
+    position: absolute;
+    width: auto;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    margin-left: 20vw;
+  }
+
+  .flex-nav-list a {
+    text-decoration: none;
+  }
+
+  .flex-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .list-item {
+    list-style-type: none;
+    padding: 10px 12px;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--gray);
+    font-size: 2.5vw;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  #homie {
+    display: none;
+  }
+
+  .event-button a {
+    padding: 3vw;
+  }
+
+  .game-hover {
+    font-size: 3vw;
+  }
+
+  .notes {
+    line-height: 5vh;
+  }
+
+  .event-img {
+    width: 35vw;
+    align-self: center;
+    margin-left: 3vw;
+    margin-top: 2vh;
+  }
+
+  .event-parragraf {
+    text-align: center;
+    width: 40vw;
+    font-size: 3.5vw;
+    line-height: 5vh;
+  }
+
+  .event-parragraf p {
+    line-height: 4vh;
+  }
+
+  .event-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5vh;
+  }
+
+  .event-act {
+    height: 70vh;
+    display: grid;
+    background: rgba(221, 221, 221, 0.2);
+    gap: 0;
+  }
+
+  .logo-img img {
+    width: 70%;
+  }
+
+  .past_events-imgs img {
+    width: 65%;
+  }
+}
+
+/* ------ NORMAL DESKTOP SIZE ------ */
+@media screen and (min-width: 1025px) {
+  #home-title {
+    font-size: 2.5vw;
+    line-height: 5vh;
+    margin-left: 20vw;
+  }
+
+  #home-title2 {
+    font-size: 2vw;
+    margin-left: 20vw;
+  }
+
+  .home-parragraf {
+    width: 40vw;
+    margin-left: 20vw;
+    font-size: 1.2vw;
+  }
+
+  #home-parragraf2 {
+    font-size: 1.2vw;
+    margin-left: 20vw;
+  }
+
+  .menu-line {
+    display: none;
+  }
+
+  .primary-logo {
+    display: block;
+    margin: 0.5vh 15vw 1vh 1vw;
+    border-radius: 35px;
+  }
+
+  .flex-nav-list {
+    position: absolute;
+    width: auto;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    height: 2.5vh;
+  }
+
+  .flex-nav-list a {
+    text-decoration: none;
+  }
+
+  .flex-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .list-item {
+    list-style-type: none;
+    padding: 10px 12px;
+    gap: 10px;
+    font-weight: 600;
+    color: var(--gray);
+    font-size: 1vw;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  #homie {
+    display: none;
+  }
+
+  .event-button {
+    text-align: center;
+    margin: 5vh 2vh 4vh 2vh;
+  }
+
+  .event-button a {
+    padding: 3vw;
+    background: none;
+    border-radius: 0;
+    text-decoration: underline;
+  }
+
+  .game {
+    width: 40vw;
+  }
+
+  .game-hover {
+    font-size: 3vw;
+  }
+
+  #games-main {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5vh;
+  }
+
+  .game-img {
+    width: 90%;
+  }
+
+  .jdx {
+    line-height: 1vh;
+  }
+
+  .game-tools {
+    font-size: 1.5vw;
+  }
+
+  .game-name {
+    font-size: 2.5vw;
+  }
+
+  .games-title {
+    padding-bottom: 10vh;
+    font-size: 2.5vw;
+  }
+
+  .notes {
+    line-height: 4vh;
+    font-size: 1vw;
+  }
+
+  .event-img {
+    width: 12vw;
+    align-self: center;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+  }
+
+  .event-parragraf {
+    text-align: center;
+    width: 17vw;
+    font-size: 1vw;
+    line-height: 5vh;
+  }
+
+  .event-parragraf p {
+    line-height: 4vh;
+  }
+
+  .event-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 1.5vh;
+  }
+
+  .event-act {
+    height: 45vh;
+    display: grid;
+    background: rgba(221, 221, 221, 0.2);
+    gap: 0;
+  }
+
+  .logo-img img {
+    width: 40%;
+  }
+
+  .past_events-imgs img {
+    width: 35%;
+  }
+
+  .about_contact-section {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
+  .about-parragraf {
+    text-align: center;
+    width: 50vw;
+    margin-left: 20vw;
+    font-size: 1.2vw;
+  }
+
+  .about-parragraf-2 {
+    font-size: 1.3vw;
+  }
+
+  .about-parragraf-2 p {
+    line-height: 5vh;
+  }
+
+  #about-title {
+    font-size: 2vw;
+    line-height: 4vh;
+  }
+
+  .logo-section {
+    padding-bottom: 4vh;
+  }
+
+  #logo-title {
+    font-size: 2vw;
+    line-height: 4vh;
+  }
+
+  .logo-title p {
+    font-size: 1.5vw;
+  }
+
+  .past_events-title {
+    font-size: 1.5vw;
+  }
+
+  .past_events-title p {
+    font-size: 1vw;
+  }
+
+  .partners-main img {
+    width: 50%;
+  }
+}
