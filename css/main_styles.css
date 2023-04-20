@@ -27,6 +27,28 @@ html {
   overflow: hidden;
 }
 
+/* ------------------ Boostrap Navbara ------------------ */
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #808080;
+}
+.sm-icons {
+flex-direction: row;
+color: #ffffff;
+}
+#navbarButtonsExample{
+margin-left: 60vw;
+}
+
+@media only screen and (min-width: 601px) {
+.sm-icons .nav-item {
+  padding-right: 1em;
+}
+}
+
 /* ------------------ Main Containers ------------------ */
 
 .home-main {
@@ -81,7 +103,7 @@ html {
 }
 
 .home-parragraf {
-  border: 2.5px white solid;
+  border: 2.5px var(--lightgray) solid;
   border-radius: 3px;
   color: var(--gray);
 }
@@ -254,6 +276,7 @@ html {
 .features_games-section {
   background-color: var(--white);
   padding-top: 3vh;
+  padding-bottom: 2vh;
 }
 
 #games-title {
@@ -279,6 +302,19 @@ html {
 
 .game-hover {
   font-size: 4vw;
+}
+
+.see-more-btn {
+  font-size: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0;
+  border: 1px solid var(--gray);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 /* ------------------ MEDIA QUERIES  ------------------ */
@@ -323,11 +359,18 @@ html {
   }
 
   .flex-nav-list.active {
+    color: var(--gray);
     left: 0;
     padding-top: 8vh;
   }
 
+  .flex-nav-list.active #about {
+    color: var(--orange);
+  }
+
   .flex-nav-list.active li {
+    margin-left: 5vw;
+    margin-bottom: 2vh;
     list-style-type: none;
   }
 
@@ -360,7 +403,6 @@ html {
   .flex-nav-list {
     position: absolute;
     width: auto;
-    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -448,6 +490,19 @@ html {
   .past_events-imgs img {
     width: 65%;
   }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .jdx {
+    line-height: 2vh;
+    margin-top: 1vh;
+  }
+
+  .game-tool {
+    margin-top: 2vh;
+  }
 }
 
 /* ------ NORMAL DESKTOP SIZE ------ */
@@ -487,7 +542,6 @@ html {
   .flex-nav-list {
     position: absolute;
     width: auto;
-    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -556,11 +610,16 @@ html {
   }
 
   .jdx {
-    line-height: 1vh;
+    line-height: 2vh;
+    margin-top: 1vh;
   }
 
   .game-tools {
     font-size: 1.5vw;
+  }
+
+  .game-tool {
+    margin-top: 2vh;
   }
 
   .game-name {
@@ -664,5 +723,9 @@ html {
 
   .partners-main img {
     width: 50%;
+  }
+
+  .hide-desktop {
+    display: none;
   }
 }
