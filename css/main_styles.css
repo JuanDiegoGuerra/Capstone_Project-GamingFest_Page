@@ -110,7 +110,7 @@ html {
 .event-act {
   display: flex;
   gap: 5vw;
-  background: rgba(221, 221, 221, 0.05);
+  background: rgba(221, 221, 221, 0.2);
 }
 
 .event-img {
@@ -216,6 +216,7 @@ html {
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
+  height: 7.2vh;
 }
 
 .display-flex-column,
@@ -284,6 +285,10 @@ html {
 
 /* ------ MOBILE ------ */
 @media screen and (max-width: 600px) {
+  .flex-navbar {
+    background-color: var(--gray);
+  }
+
   .menu {
     display: block;
     position: fixed;
@@ -432,7 +437,7 @@ html {
   .event-act {
     height: 70vh;
     display: grid;
-    background: rgba(221, 221, 221, 0.05);
+    background: rgba(221, 221, 221, 0.2);
     gap: 0;
   }
 
@@ -447,12 +452,25 @@ html {
 
 /* ------ NORMAL DESKTOP SIZE ------ */
 @media screen and (min-width: 1025px) {
-  .home-main {
-    text-align: center;
+  #home-title {
+    font-size: 2.5vw;
+    line-height: 5vh;
+    margin-left: 20vw;
+  }
+
+  #home-title2 {
+    font-size: 2vw;
+    margin-left: 20vw;
   }
 
   .home-parragraf {
-    width: 50vw;
+    width: 40vw;
+    margin-left: 20vw;
+    font-size: 1.2vw;
+  }
+
+  #home-parragraf2 {
+    font-size: 1.2vw;
     margin-left: 20vw;
   }
 
@@ -475,7 +493,7 @@ html {
     align-items: center;
     padding: 0;
     gap: 8px;
-    margin-left: 15vw;
+    height: 2.5vh;
   }
 
   .flex-nav-list a {
@@ -550,8 +568,8 @@ html {
   }
 
   .games-title {
-    padding-bottom: 2.5vh;
-    font-size: 1.5vw;
+    padding-bottom: 10vh;
+    font-size: 2.5vw;
   }
 
   .notes {
@@ -586,7 +604,7 @@ html {
   .event-act {
     height: 45vh;
     display: grid;
-    background: rgba(221, 221, 221, 0.05);
+    background: rgba(221, 221, 221, 0.2);
     gap: 0;
   }
 
@@ -598,10 +616,50 @@ html {
     width: 35%;
   }
 
+  .about_contact-section {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+  }
+
   .about-parragraf {
     text-align: center;
     width: 50vw;
     margin-left: 20vw;
+    font-size: 1.2vw;
+  }
+
+  .about-parragraf-2 {
+    font-size: 1.3vw;
+  }
+
+  .about-parragraf-2 p {
+    line-height: 5vh;
+  }
+
+  #about-title {
+    font-size: 2vw;
+    line-height: 4vh;
+  }
+
+  .logo-section {
+    padding-bottom: 4vh;
+  }
+
+  #logo-title {
+    font-size: 2vw;
+    line-height: 4vh;
+  }
+
+  .logo-title p {
+    font-size: 1.5vw;
+  }
+
+  .past_events-title {
+    font-size: 1.5vw;
+  }
+
+  .past_events-title p {
+    font-size: 1vw;
   }
 
   .partners-main img {
