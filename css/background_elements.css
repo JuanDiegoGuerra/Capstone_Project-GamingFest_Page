@@ -100,23 +100,10 @@
 
   .features_games-section {
     background-image:
-      url(../img/svg/retro_controller2.svg),
-      url(../img/svg/knight_helmet.svg),
-      url(../img/svg/simple_joystick.svg),
-      url(../img/svg/robotic_head.svg),
-      url(../img/svg/axes.svg),
-      url(../img/svg/csgo_duckgun.svg),
-      url(../img/svg/soldier.svg);
+      url(../img/svg/retro_controller2.svg);
     background-repeat: no-repeat;
-    background-size: 15%, 15%, 17%, 13%, 17%, 12%, 12%;
-    background-position:
-      96% 0%,
-      36% 9.5%,
-      45% 58.3%,
-      35% 42%,
-      60% 89.5%,
-      36% 26.3%,
-      59% 74.5%;
+    background-size: 15%;
+    background-position: 96% 0%;
   }
 
   .logo-section {
