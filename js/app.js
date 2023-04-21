@@ -62,7 +62,7 @@ let gamesInner = '';
 
 function renderGames(num) {
   for (let i = 0; i < num; i += 1) {
-  gamesInner += `
+    gamesInner += `
   <div id="${FeaturedGames[i].id}" class="game">
     <img class="game-img" src="${FeaturedGames[i].image}" width="100%" alt="featured_game">
   <div class="game-hover">       

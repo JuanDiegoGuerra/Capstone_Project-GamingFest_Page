@@ -230,14 +230,13 @@ html {
 }
 
 /* ------------------ ELEMENTS  ------------------ */
-#home-title{
+#home-title {
   font-weight: bold;
 }
 
-.home-title{
+.home-title {
   background-image: url(../img/orange_text_bg4.jpg);
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -336,7 +335,7 @@ html {
 
 /* ------ MOBILE ------ */
 @media screen and (max-width: 600px) {
-  .home-section{
+  .home-section {
     margin-top: 1vh;
     margin-bottom: 6vh;
   }
@@ -346,11 +345,11 @@ html {
     margin-bottom: 3vh;
   }
 
-  .main_event-section{
+  .main_event-section {
     padding-top: 3vh;
   }
 
-  .event-title{
+  .event-title {
     margin-bottom: 3vh;
   }
 
@@ -411,7 +410,7 @@ html {
     text-decoration: none;
   }
 
-  .partners-section{
+  .partners-section {
     padding-top: 3.5vh;
   }
 }
@@ -549,10 +548,11 @@ html {
 
 /* ------ NORMAL DESKTOP SIZE ------ */
 @media screen and (min-width: 1025px) {
-  .home-section{
+  .home-section {
     padding-bottom: 15vh;
     padding-top: 15vh;
   }
+
   #home-title {
     font-size: 2.5vw;
     line-height: 5vh;
@@ -627,11 +627,11 @@ html {
     display: none;
   }
 
-  .main_event-section{
+  .main_event-section {
     padding-top: 5vh;
   }
 
-  .event-title{
+  .event-title {
     padding-bottom: 5vh;
   }
 

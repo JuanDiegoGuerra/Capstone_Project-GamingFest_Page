@@ -99,8 +99,7 @@
   }
 
   .features_games-section {
-    background-image:
-      url(../img/svg/retro_controller2.svg);
+    background-image: url(../img/svg/retro_controller2.svg);
     background-repeat: no-repeat;
     background-size: 15%;
     background-position: 96% 0%;
