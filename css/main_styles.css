@@ -230,6 +230,18 @@ html {
 }
 
 /* ------------------ ELEMENTS  ------------------ */
+#home-title{
+  font-weight: bold;
+}
+
+.home-title{
+  background-image: url(../img/orange_text_bg4.jpg);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .flex-nav-list {
   display: none;
 }
@@ -324,6 +336,24 @@ html {
 
 /* ------ MOBILE ------ */
 @media screen and (max-width: 600px) {
+  .home-section{
+    margin-top: 1vh;
+    margin-bottom: 6vh;
+  }
+
+  .home-parragraf {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .main_event-section{
+    padding-top: 3vh;
+  }
+
+  .event-title{
+    margin-bottom: 3vh;
+  }
+
   .flex-navbar {
     background-color: var(--gray);
   }
@@ -379,6 +409,10 @@ html {
 
   .flex-nav-list.active a {
     text-decoration: none;
+  }
+
+  .partners-section{
+    padding-top: 3.5vh;
   }
 }
 
@@ -506,10 +540,19 @@ html {
   .game-tool {
     margin-top: 2vh;
   }
+
+  .hidden,
+  .hiddenBtn {
+    display: none;
+  }
 }
 
 /* ------ NORMAL DESKTOP SIZE ------ */
 @media screen and (min-width: 1025px) {
+  .home-section{
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+  }
   #home-title {
     font-size: 2.5vw;
     line-height: 5vh;
@@ -525,6 +568,8 @@ html {
     width: 40vw;
     margin-left: 20vw;
     font-size: 1.2vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
   }
 
   #home-parragraf2 {
@@ -580,6 +625,14 @@ html {
 
   #homie {
     display: none;
+  }
+
+  .main_event-section{
+    padding-top: 5vh;
+  }
+
+  .event-title{
+    padding-bottom: 5vh;
   }
 
   .event-button {
@@ -729,6 +782,11 @@ html {
   }
 
   .hide-desktop {
+    display: none;
+  }
+
+  .hidden,
+  .hiddenBtn {
     display: none;
   }
 }
