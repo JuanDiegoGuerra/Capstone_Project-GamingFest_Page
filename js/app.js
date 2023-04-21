@@ -58,18 +58,51 @@ const FeaturedGames = [
 
 const FeaturedGameContainer = document.getElementById('games-main');
 
-FeaturedGames.map((game) => {
-  FeaturedGameContainer.innerHTML += `
-  <div id="${game.id}" class="game">
-    <img class="game-img" src="${game.image[0]}" width="100%" alt="featured_game">
+let gamesInner = '';
+
+function renderGames(num) {
+  for (let i = 0; i < num; i += 1) {
+    gamesInner += `
+  <div id="${FeaturedGames[i].id}" class="game">
+    <img class="game-img" src="${FeaturedGames[i].image}" width="100%" alt="featured_game">
   <div class="game-hover">       
-    <h2 class="game-name jdx">${game.name}</h2>
+    <h2 class="game-name jdx">${FeaturedGames[i].name}</h2>
     <ul class="game-tools jdx">
-      <li class="game-tool">${game.category}</li>
+      <li class="game-tool">${FeaturedGames[i].category}</li>
     </ul>
-    <p class="notes">${game.description}</p>
+    <p class="notes">${FeaturedGames[i].description}</p>
   </div>
   </div>
   `;
-  return '';
+  }
+  FeaturedGameContainer.innerHTML = gamesInner;
+  gamesInner = '';
+  return gamesInner;
+}
+
+const seeMoreBtn = document.getElementById('see-more');
+
+seeMoreBtn.addEventListener('click', () => {
+  if (seeMoreBtn.innerText === 'MORE') {
+    seeMoreBtn.innerText = 'LESS';
+    renderGames(6);
+  } else {
+    seeMoreBtn.innerText = 'MORE';
+    renderGames(2);
+  }
+});
+
+if (window.innerWidth >= 768) {
+  renderGames(6);
+} else {
+  renderGames(2);
+}
+
+let desktop = false;
+
+window.addEventListener('resize', () => {
+  if (window.innerWidth >= 768 && !desktop) {
+    renderGames(6);
+    desktop = true;
+  }
 });
